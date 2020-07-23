@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+* { font-family: 'Poppins', sans-serif !important; }
+body { background-color: #24292e !important; }
+.mt-4.position-sticky.top-0.d-none.d-md-block.bg-white.width-full.border-bottom { background-color: #24292e !important; border-bottom: 0px !important; }
+img.avatar.avatar-user.width-full.border.bg-white { border: 0px !important; }
+span.p-name.vcard-fullname.d-block.overflow-hidden { color: #fff !important; }
+.user-status-circle-badge { background-color: #333940 !important; border: 0px solid #e1e4e8 !important; }
+.p-note.user-profile-bio.mb-3.js-user-profile-bio.f4 {color: #fff;font-size: 16px !important;font-weight: 100;letter-spacing: 1px;line-height: 19px;}
+.Box {background-color: #282d31 !important;border: 0px solid #e1e4e8 !important;border-radius: 5px !important; }
+.border.py-2.graph-before-activity-overview { border: 0px !important; }
+.profile-timeline-year-list.js-profile-timeline-year-list.bg-white.js-sticky.float-right.col-2.pl-5 { background-color: #24292e !important; }
+span.repo { color: #55a2f9 !important; font-weight: 600 !important; font-size: 16px !important; }
+.btn { color: #d2d2d2 !important;background-color: #333940 !important;border-color: #1b1f2300 !important;box-shadow: 0 0px 0 rgba(27,31,35,.04), inset 0 0px 0 hsla(0,0%,100%,.25) !important;}
+a { text-decoration: none !important; }
+svg.octicon.octicon-book.UnderlineNav-octicon.hide-sm { color: #fff; }
+.UnderlineNav-item.selected, .UnderlineNav-item[aria-current]:not([aria-current=false]), .UnderlineNav-item[role=tab][aria-selected=true] {border-bottom-color: #55a2f9 !important;}
+.UnderlineNav-item { color: #eaeaea !important; }
+h3.profile-timeline-month-heading.bg-white.d-inline-block.h6.pr-2.py-1 { background-color: #24292e !important; }
+.profile-timeline.discussion-timeline:before { background-color: #333940 !important; }
+.profile-timeline.discussion-timeline .profile-timeline-month-heading:after { background-color: #24292e !important; }
+.discussion-item-icon { color: #d2d2d2 !important; background-color: #333940 !important; border: 2px solid #333940 !important; }
+.filter-item.selected, .filter-item[aria-current]:not([aria-current=false]), .filter-item[aria-selected=true] { color: #fff; background-color: #55a2f9 !important; }
+span.p-label { color: #616a73 !important; }
+a.link-gray-dark {
+    color: #55a2f9 !important;
+    letter-spacing: 1px !important;
+}
+span.text-bold.text-gray-dark {
+    color: #fff !important;
+}
