@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "sleepgithub",
+	"version": "1.0",
+	"description": "deixe seu github com cores dark",
+	"icons": {
+        "01" : "icon01.png"
+	},
+    "page_action": {
+        "default_icon": { 
+            "01" : "icon01.png"
+        },
+        "default_title": "bloodreader"
+    },
+    "permissions": [ 
+        "tabs",
+        "declarativeContent"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "content_scripts": [ {
+        "js": [ "src/jquery.js" ],
+        "css": [ "src/custom.css" ],
+        "matches": [ "https://*.github.com/*" ]
+    } ]
+}
