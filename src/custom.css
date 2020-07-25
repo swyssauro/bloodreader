@@ -21,10 +21,14 @@ h3.profile-timeline-month-heading.bg-white.d-inline-block.h6.pr-2.py-1 { backgro
 .discussion-item-icon { color: #d2d2d2 !important; background-color: #333940 !important; border: 2px solid #333940 !important; }
 .filter-item.selected, .filter-item[aria-current]:not([aria-current=false]), .filter-item[aria-selected=true] { color: #fff; background-color: #55a2f9 !important; }
 span.p-label { color: #616a73 !important; }
-a.link-gray-dark {
-    color: #55a2f9 !important;
-    letter-spacing: 1px !important;
-}
-span.text-bold.text-gray-dark {
-    color: #fff !important;
-}
+a.link-gray-dark { color: #55a2f9 !important; letter-spacing: 1px !important; }
+span.text-bold.text-gray-dark { color: #fff !important; }
+.header-search-current .jump-to-suggestions-results-container .navigation-item { border-bottom: 0px solid #e1e4e8 !important; }
+.input-sm { min-height: 36px !important; }
+.header-search-current .header-search-wrapper { background-color: #2a2f35 !important; }
+.header-search-current .jump-to-suggestions-path { color: #d0d0d0 !important; }
+.header-search-current .jump-to-field-active { color: #24292e!important; background-color: #2a2f35 !important; }
+.profile-rollup-wrapper+.profile-rollup-wrapper { border-top: 2px solid #333940 !important; }
+.ajax-pagination-form .ajax-pagination-btn { border: 0px solid #e1e4e8 !important; }
+button.ajax-pagination-btn.btn.btn-outline.border-gray-dark.width-full.f6.mt-0.py-2.contribution-activity-show-more { border: 0px solid #333940 !important; }
+li.col-12.d-flex.width-full.py-4.border-bottom.public.source { border-bottom: 0px !important; }
